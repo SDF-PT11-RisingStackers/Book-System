@@ -1,10 +1,14 @@
-import BookList from "./BookList"
-function App(){
-  return(
-    <>
-      <h1>Book System App</h1>
-      <BookList/>
-    </>
-  )
+import BookList from "./BookList";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="app-container">
+      <h1 className="app-title"> Book System App</h1>
+      <BookList />
+      
+    </div>
+  );
 }
-export default App
+
+export default App;

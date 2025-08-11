@@ -1,0 +1,17 @@
+/* App.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: lightgray; /* light background */
+  min-height: 100vh; /* full screen height */
+  padding: 20px;
+}
+
+.app-title {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
