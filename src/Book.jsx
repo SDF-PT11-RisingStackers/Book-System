@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './Book.css'; // Import the styles
+import { Link } from 'react-router-dom';
 
-function Book({ title, author }) {
+function Book({ title, author ,id}) {
   const [showDescription, setShowDescription] = useState(false);
 
   function toggleDescription() {
@@ -22,6 +23,9 @@ function Book({ title, author }) {
           This is a great book. Highly recommend!!!
         </p>
       )}
+      <p>
+        <Link to={`/books/${id}`}>View details</Link>
+      </p>
     </div>
   );
 }
